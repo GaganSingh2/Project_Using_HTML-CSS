@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./Assets/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <title>Spotify - Web Player: Music for everyone</title>
 </head>
+
 <body>
     <div class="main">
         <div class="sidebar">
@@ -60,14 +65,78 @@
                 <div class="sticky-nav-down">
 
                     <button class="badge nav-item hide">Explore Premium</button>
-                    
-                    <button class="badge nav-item dark-icon"><i class="fa-solid fa-circle-arrow-down" style="margin-right: 5px;"></i>Install App</button>
+
+                    <button class="badge nav-item dark-icon"><i class="fa-solid fa-circle-arrow-down"
+                            style="margin-right: 5px;"></i>Install App</button>
                     <i class="fa-solid fa-user nav-item"></i>
                 </div>
             </div>
-            <div class="cards"></div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./Assets/card1img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./Assets/card2img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/card3img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/card4img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/card4img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/card4img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./Assets/card5img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your weekly updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/card6img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your weekly updates of the most played tracks right...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assets/card1img.jpeg" alt="top playlist" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks right...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line">
+                    
+                </div>
+            </div>
         </div>
+        
         <div class="music_control">music-control</div>
     </div>
 </body>
+
 </html>
