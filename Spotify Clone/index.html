@@ -129,13 +129,50 @@
                 </div>
             </div>
             <div class="footer">
-                <div class="line">
-                    
-                </div>
+                <div class="line"></div>
             </div>
         </div>
         
-        <div class="music_control">music-control</div>
+        <div class="music_control">
+           <div class="album">
+            <img src="./Assets/songPic.jpg" alt="" class="song-pic">
+            <div class="song">
+                <p class="song-title">Kabira's</p>
+                <p class="song-info">Arijit Singh</p>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+           </div>
+           <div class="player">
+            <div class="player-control">
+                <img src="./Assets/player_icon1.png" alt="" class="player-control-icon">
+                <img src="./Assets/player_icon2.png" alt="" class="player-control-icon">
+                <img src="./Assets/player_icon3.png" alt="" style="opacity: 1; height: 2rem;" class="player-control-icon">
+                <img src="./Assets/player_icon4.png" alt="" class="player-control-icon">
+                <img src="./Assets/player_icon5.png" alt="" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" name="curr-range" id="curr-range" class="progress-bar">
+                <span class="tot-time">3:33</span>
+            </div>
+           </div>
+           <div class="control">
+            <div class="control-icon">
+                <div class="con-icon">
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <i class="fa-solid fa-house-laptop"></i>
+                    <i class="fa-solid fa-volume-low"></i>
+                </div>
+            <div class="con-bar">
+                <input type="range" name="volume" id="volume" min="0" max="10" step="1">
+            </div>
+            
+            <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+            
+           </div>
+        </div>
     </div>
 </body>
 
